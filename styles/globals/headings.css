@@ -1,0 +1,12 @@
+h1 {
+  color: lightblue; 
+}
+
+h2 a {
+  color: pink; 
+  text-decoration: none;
+}
+
+h2 a:focus {
+  outline: 0; 
+}

@@ -1,26 +1,2 @@
-* {
-  box-sizing: border-box;
-}
-body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0px; 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh; 
-  justify-content: center;
-  overflow: hidden;
-}
-
-h1 {
-  color: lightblue; 
-}
-
-h2 a {
-  color: pink; 
-  text-decoration: none;
-}
-
-h2 a:focus {
-  outline: 0; 
-}
+@import '/styles/globals/body.css'; 
+@import '/styles/globals/headings.css';
