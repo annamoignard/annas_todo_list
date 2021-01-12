@@ -1,0 +1,40 @@
+.input { 
+  background-color: black;
+  border: none;
+  color: 	rgb(102, 255, 255);
+  font-size: 2rem; 
+  padding: 1rem 2rem; 
+  display: block; 
+  width: 100%; 
+  text-align: center;
+} 
+
+.input::placeholder {
+  color: rgb(255, 102, 255); 
+  opacity: 0.7;
+  text-align: center;
+}  
+
+.input:focus { 
+  outline-color: rgb(179, 131, 226); 
+}
+
+.todos {
+  background-color: black;
+  padding: 0; 
+  color: 	rgb(140, 255, 102); 
+  margin: 0; 
+  list-style-type: none; 
+} 
+
+.todos li { 
+  border-top: 1px solid #e5e5e5; 
+  cursor: pointer; 
+  font-size: 1.5rem; 
+  padding: 1rem 2rem; 
+}
+
+.todos li.completed {
+  color: rgb(255, 255, 102); 
+  text-decoration: line-through;
+}

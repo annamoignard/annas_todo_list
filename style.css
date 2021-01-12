@@ -1,2 +1,8 @@
+/* globals */
 @import '/styles/globals/body.css'; 
 @import '/styles/globals/headings.css';
+@import '/styles/globals/buttons.css';
+@import '/styles/globals/nav.css';
+
+/* components */
+@import '/styles/components/form.css'; 
